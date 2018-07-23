@@ -25,6 +25,11 @@ organized? How would branches help?
 
 5. How do the diagrams help you visualize the branch structure?
 
+   The diagrams illustrate the order that commits were created as well as the hierarchy of the various branches. 
+   Because branches are created from the commit that HEAD is pointing at when the branch is created, branches
+   can and will have different parents. The diagram helps illustrate the branch lineage and is helpful to see
+   which commits are missing from a branch and need to be merged in.
+
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
