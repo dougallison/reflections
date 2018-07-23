@@ -33,5 +33,10 @@ organized? How would branches help?
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+   Merging two branches results in code from both branches being joined into the same branch. This is useful when
+   one branch has a bug fix or a new feature that needs to be included in the production code line. The diagram 
+   reflects the new position of the HEAD pointer and indicates that the latest commit has two different parent
+   paths in its lineage.
+
 7. What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
