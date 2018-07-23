@@ -10,6 +10,10 @@ What value do you think it offers?
 3. How can you use the staging area to make sure you have one commit per logical
 change?
 
+   To limit the staging area to one commit per logical change, only add the files that were affected by the logical
+   change to the staging area. Files can be selectively added to the staging area using the git add {filename} command.
+   To see the difference between files in the working directory and files in the staging area, use the git diff command.
+
 4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
