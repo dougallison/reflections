@@ -17,6 +17,12 @@ change?
 4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+   Branches are useful for a variety of situations. A bug fix could be isolated to it's own branch during development
+   so other developers are isolated from it until it is ready. A branch could also be utilized to isolate an experimental
+   new feature that may not make it into the production code. Branches also allow developers working on a team to 
+   isolate their code changes from other developers until the code is complete and ready to be merged with the 
+   production code.
+
 5. How do the diagrams help you visualize the branch structure?
 
 6. What is the result of merging two branches together? Why do we represent it in
