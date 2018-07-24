@@ -12,3 +12,22 @@
    changes down from the remote repository allows the option to merge those code changes into your
    branch at a point-in-time that you're ready to receive those code changes - without them interferring
    with your own code changes.
+
+ 3. Describe the differences between forks, clones, and branches. When would you use one instead of
+    another?
+
+    The fork feature is limited in scope to the GitHub website. A user forks a repository when they
+    don't have access to make any updates to the source repository, but would like to make changes to 
+    the repository. This happens frequently with open source projects which often have many developers
+    contributing to the repository. The developers fork the source repository to have a copy that they
+    can work on.
+
+    Cloning a repository creates a copy of a repository, including all of it's commit history. A 
+    repository is often cloned from a remote source (like GitHub) to a local disk so a developer
+    can work on the project on his local disk (in a disconnected manner). Any changes to the files
+    in the repository only occur in the cloned repository until such time as the changes are pushed 
+    back into the source repository.
+
+    Branches are used to label commits in a meaningful way. A branch isolates a set of commits from 
+    other branches in the repository. This allows a developer to work in an isolated workspace to 
+    create experimental code features or test bug fixes; without affecting the production code line.
