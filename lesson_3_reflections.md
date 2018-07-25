@@ -37,3 +37,13 @@
    Having the last known state of the remote stored locally allows you to compare the work you make
    in your local branch with the work that was present in the remote branch - without requiring an
    internet connection. 
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+   Collaborating without Git or Github would require a common network share or a cloud drive system
+   like dropbox. It might be easier to copy files to the remote drive, but many other aspects
+   would be much more challenging. Maintaining different versions and branches using a remote drive
+   quickly gets tedious and confusing. Merging changes back into the primary production code and 
+   reviewing those code changes would be very time consuming. Each file would have to be diff'd
+   and the output reviewed carefully. Tracking who made changes and to which version of the file
+   the change was made would be very improbable.
