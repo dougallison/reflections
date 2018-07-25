@@ -47,3 +47,13 @@
    reviewing those code changes would be very time consuming. Each file would have to be diff'd
    and the output reviewed carefully. Tracking who made changes and to which version of the file
    the change was made would be very improbable.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What
+   benefits does each approach have?
+
+   The master branch should be the version of code that is running in the production environment.
+   Keeping the master branch free from active development allows an organization to compile 
+   production-ready code any time they need to. For this reason, all development should occur
+   on a different branch. Making code changes on a separate branch allows for experimentation 
+   and testing without risk of introducing temporary or non-production grade code into the master
+   branch.
