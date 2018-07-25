@@ -31,3 +31,9 @@
     Branches are used to label commits in a meaningful way. A branch isolates a set of commits from 
     other branches in the repository. This allows a developer to work in an isolated workspace to 
     create experimental code features or test bug fixes; without affecting the production code line.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+   Having the last known state of the remote stored locally allows you to compare the work you make
+   in your local branch with the work that was present in the remote branch - without requiring an
+   internet connection. 
